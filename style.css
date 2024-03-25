@@ -1,0 +1,322 @@
+@font-face {
+    font-family: street;
+    src: url(./resorce/Road_Rage.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: street;
+    /* background-color: gray; */
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+
+    width: 100%;
+}
+
+#nav {
+
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: gray; */
+    padding: 30px 4vw;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav #centernav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#navL {
+
+    display: flex;
+    gap: 30px;
+}
+
+#Hero {
+    margin-top: 15%;
+    padding: 0 4vw;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#heroL {
+
+    width: 10vw;
+}
+
+#heroL p {
+    font-size: 11px;
+    line-height: 15px;
+}
+
+#heroL h3 {
+    font-weight: 100;
+}
+
+#heroL #imgL {
+    width: 100%;
+}
+
+#imgL img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#heroM {
+    position: relative;
+    width: 30vw;
+}
+
+#heroM img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#imgtext {}
+
+#headings {
+    position: absolute;
+    top: -17%;
+    left: -15%;
+}
+
+#headings h1 {
+    font-size: 4.5vw;
+    letter-spacing: 4px;
+    line-height: 69px;
+    font-weight: 100;
+}
+
+#heroM p {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+}
+
+#visit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+#visit h3 {
+    font-weight: 100;
+}
+
+#circleV {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 25px;
+    border: 2px solid black;
+}
+
+#hero2 {
+    /* background-color: rebeccapurple; */
+    margin-top: 30px;
+    padding: 03vw 4vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#hero2 p {
+    width: 85%;
+    background-color: #fff;
+    align-items: center;
+    text-align: right;
+    font-size: 1.8vw;
+}
+
+#hero2 span {
+    border-radius: 50px;
+    display: inline-block;
+    background-color: gold;
+    margin: 0 8px;
+    margin-bottom: -10px;
+
+}
+
+#hero2 h3 {
+    font-weight: 900;
+    opacity: .7;
+}
+
+#span1 {
+    width: 64px;
+    height: 42px;
+    background-image: url(./resorce/bluegirl.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+}
+
+#span2 {
+    width: 60px;
+    height: 42px;
+    background-image: url(./resorce/grass.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#span3 {
+    width: 79px;
+    height: 38px;
+    background-image: url(./resorce/shaljam.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#hero3 {
+    margin-top: 50px;
+    padding: 3vw;
+    padding-left: 9vw;
+    padding-right: 12vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero3 #fstpic {
+    width: 180px;
+}
+
+#hero3 #secpic {
+    width: 300px;
+}
+
+#fstimg img,
+#secimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#hero3 #fstimg {
+    width: 100%;
+    height: 260px;
+  
+}
+
+#hero3 #secimg {
+    width: 110%;
+    height: 470px;
+   
+}
+
+#hero3 p {
+    opacity: .7;
+}
+
+#hero3 h1 {
+    font-weight: 100;
+}
+
+#hero4 {
+    width: 100%;
+    margin-top: 10vw;
+    display: flex;
+    align-items: center;
+}
+
+#hero4img {
+  
+    width: 68%;
+    height: 69vh;
+}
+
+#hero4img img {
+  
+    width: 100%;
+    height: 100%;
+    object-position: 0% 70%;
+    object-fit: cover;
+}
+
+#hero4text {
+    width: 32%;
+    padding: 20px;
+}
+
+#hero4text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+}
+
+#hero4text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+}
+
+#future {
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#future video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+#ftext {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+
+#ftext button {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: .7vw 2vw;
+    background-color: #fefefe;
+    border: 1px solid black;
+    font-weight: 100;
+    border-radius: 100px;
+}
+
+#ftext button:hover {
+
+    background-color: rgba(231, 231, 231, 0.842);
+  
+    transition: all ease 1s;
+   
+    
+}
